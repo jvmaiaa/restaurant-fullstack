@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: restaurant
+  # profiles:
+  #   active: dev
+
+  # Configuração do banco de dados
+  datasource:
+    url: jdbc:postgresql://localhost:5432/restaurant
+    username: postgres
+    password: root
+
+  jpa:
+    show-sql: true
+    format_sql: true
+    hibernate:
+      defer-datasource-initialization: true
+      ddl-auto: create-drop
+    open-in-view: false
+
+server:
+  servlet:
+    context-path: /api
