@@ -30,8 +30,7 @@ public class FuncionarioEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String cpf;
-
+    private String cpf;asdas
     private String nome;
 
     private Integer idade;
