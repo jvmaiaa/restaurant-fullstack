@@ -15,10 +15,18 @@
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
-		<license/>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<distribution>repo</distribution>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<id>jvmaiaa</id>
+			<name>João Víctor</name>
+			<email>joaovictormaia482@gmail.com</email>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -91,6 +99,8 @@
 			<scope>test</scope>
 		</dependency>
 
+
+
 	</dependencies>
 
 	<build>
@@ -98,11 +108,15 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version>
 				<configuration>
+					<source>21</source>
+					<target>21</target>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+							<version>1.18.36</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>

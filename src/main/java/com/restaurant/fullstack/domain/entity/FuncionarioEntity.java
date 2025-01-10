@@ -31,6 +31,7 @@ public class FuncionarioEntity {
     private Long id;
 
     private String cpf;
+
     private String nome;
 
     private Integer idade;
@@ -51,4 +52,10 @@ public class FuncionarioEntity {
     private LocalDateTime horaFimExpediente;
 
     private LocalDateTime dataInicioAdmissao;
+
+//    @ManyToMany
+//    @JoinTable(name = "mesas_funcionarios",
+//            joinColumns = @JoinColumn(name = "id_funcionario"),
+//            inverseJoinColumns = @JoinColumn(name = "id_mesa"))
+//    private List<MesaEntity> mesas;
 }
