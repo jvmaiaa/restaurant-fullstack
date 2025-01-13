@@ -2,7 +2,7 @@ spring:
   application:
     name: restaurant
   profiles:
-     active: jvm
+     active: gd
 
 server:
   port: 8081
