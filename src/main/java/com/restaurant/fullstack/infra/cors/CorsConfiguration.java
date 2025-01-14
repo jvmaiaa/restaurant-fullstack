@@ -1,4 +1,4 @@
-package com.restaurant.fullstack.infra.exception.cors;
+package com.restaurant.fullstack.infra.cors;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
